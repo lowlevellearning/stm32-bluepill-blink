@@ -1,13 +1,10 @@
-PROJECT = awesomesauce
+PROJECT = blink-led
 BUILD_DIR = bin
 
-SHARED_DIR = ../my-common-code
 CFILES = my-project.c
-CFILES += api.c
-AFILES += api-asm.S
 
 # TODO - you will need to edit these two lines!
-DEVICE=stm32f407vgt6
+DEVICE=stm32f103c8
 OOCD_FILE = board/stm32f4discovery.cfg
 
 # You shouldn't have to edit anything below here.
